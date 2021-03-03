@@ -3,6 +3,7 @@
 # ... except directories ...
 !*/
 
+
 # ... and files with extensions.
 !*.*
 # Ignore exe- and pyc-files.
@@ -43,14 +44,15 @@ Pipfile.lock
 !/external/bin/
 !/external/bin/jibal.conf
 
+
 # Temporary QT Creator files
 *.ui.autosave
 
 .DS_Store
 
 # Directories created by pyinstaller
-/dist
-/build
+!/dist
+!/build
 
 # Directories used for bundling Mac version
 /tk
